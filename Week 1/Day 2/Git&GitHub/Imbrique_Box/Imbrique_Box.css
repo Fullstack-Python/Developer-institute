@@ -1,0 +1,37 @@
+body{
+	margin:0;
+}
+
+.main{
+	position: relative;
+	background-color:grey;
+	box-sizing: 16px;
+	border:5px;
+	height:150px;
+	width: 400px;
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+.med{
+	position:absolute;
+	background:blue;
+	left:10px;
+	top:5px;
+	height:110px;
+	width: 110px;
+	border:5px;
+
+}
+
+.meu{
+	position:absolute;
+	background:orange;
+	left:10px;
+	top:10px;
+	height:110px;
+	width: 110px;
+	border:5px;
+	margin-left: 10px;
+
+}
