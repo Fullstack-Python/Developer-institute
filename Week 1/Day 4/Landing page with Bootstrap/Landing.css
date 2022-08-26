@@ -1,0 +1,14 @@
+body{
+	margin: 0;
+}
+p{
+	text-align: center;
+	font-size: 60px;
+	margin-top: 280px;
+}
+#jun{
+	height: 700px;
+	background-image: url(computer-2982270.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
