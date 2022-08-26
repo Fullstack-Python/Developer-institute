@@ -1,0 +1,21 @@
+.jun{
+	height: 485px;
+	background-image: url(computer.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+p{
+	font-size: 20px;
+	margin-top: 600px;
+}
+.container{
+	justify-content: space-between;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.hen{
+	background-color: #C0C0C0;
+	background-size: cover;
+}
