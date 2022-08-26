@@ -3,7 +3,7 @@ body{
 }
 p{
 	text-align: center;
-	font-size: 60px;
+	font-size: 50px;
 	margin-top: 280px;
 }
 #jun{
@@ -11,4 +11,15 @@ p{
 	background-image: url(computer-2982270.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	text-align: center;
+}
+a{
+	color: skyblue;
+	text-decoration: none;
+}
+.container{
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
