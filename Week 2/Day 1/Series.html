@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Series</title>
+</head>
+<body>
+		<script type="text/javascript">
+			let myWatchedSeries = [" black mirror ", " money heist ", " the big bang theory "];
+			let myWatchedSeriesLength = myWatchedSeries.length;
+			let myWatchedSeriesSentence = "the last one because it is a very good serie based on technologie and more things useful for a scientific";
+			console.log('I watched 3 series' + myWatchedSeries + ' but i prefer ' + myWatchedSeriesSentence )
+			myWatchedSeries.pop();
+			myWatchedSeries.push("friends");
+			console.log(myWatchedSeries)
+			myWatchedSeries.push("vampire diairies");
+			console.log(myWatchedSeries)
+			myWatchedSeries.unshift("the big bang theory");
+			console.log(myWatchedSeries)
+			myWatchedSeries.splice(1,1)
+			console.log(myWatchedSeries)
+			let third  = myWatchedSeries[1];
+			console.log(third)
+			console.log(third.charAt(3))
+		</script>
+</body>
+</html>
