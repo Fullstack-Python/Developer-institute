@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Verbing </title>
+</head>
+<body>
+		<script type="text/javascript">
+			let verb = prompt("Type a verb");
+			let term = verb.endsWith("ing");
+			if (verb.length >=3 && term==false){
+				console.log(verb+"ing")
+			} else if (verb.length >=3 && term==true){
+				console.log(verb+"ly")
+			} else {
+				console.log(verb)
+			}
+		</script>
+</body>
+</html>
