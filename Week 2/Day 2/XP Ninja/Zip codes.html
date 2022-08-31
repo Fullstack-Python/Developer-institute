@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Zip codes </title>
+</head>
+<body>
+	<script type="text/javascript">
+		let zip = prompt('enter zip code');
+		let pattern = /^\d{5}$/;
+		if (pattern.test(zip) == true){
+			console.log("ok")
+		} else {
+			console.log("Try again")
+		}
+	</script>
+</body>
+</html>

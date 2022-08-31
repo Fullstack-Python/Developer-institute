@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NOT BAD</title>
+</head>
+<body>
+		<script type="text/javascript">
+			let sentence = "not bad";
+			let wordNot = sentence.substring(0, 3);
+			console.log(wordNot)
+			let wordBad = sentence.substring(4, 7);
+			console.log(wordBad)
+			let jun = sentence.startsWith("not bad")
+			if( jun== true){
+				console.log(sentence.replace("not bad", "good"));
+			} else if(jun== false){
+				console.log(sentence.repeat(1));
+			}
+		</script>
+</body>
+</html>
