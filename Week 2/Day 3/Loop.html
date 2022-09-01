@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Loop</title>
+</head>
+<body>
+    <script type="text/javascript">
+    let names= ["john", "sarah", 23, "Rudolf",34];
+    
+    // for (let i in names){
+    //     if(typeof(names[i]) == 'string'){
+    //         if(names[i].charAt(0).toUpperCase() == names[i].charAt(0)){
+    //             console.log(names[i])
+    //         } else {
+    //         console.log(`${names[i].charAt(0).toUpperCase()}${names[i].substring(1,8)}`)
+    //     }
+    // }else{
+    //     console.log('its a number')
+    // }
+    // }
+
+
+// 2ieme Volet de la question 
+
+    for (let i in names){
+        if(typeof(names[i]) !== 'string'){
+            continue;
+        } else {
+            console.log(names[i])
+        }
+    }
+    </script>
+</body>
+</html>
