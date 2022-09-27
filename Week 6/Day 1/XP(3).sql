@@ -1,0 +1,5 @@
+CREATE TABLE items(
+object_id SERIAL PRIMARY KEY,
+size_desk VARCHAR (100) NOT NULL,
+prices SMALLINT NOT NULL
+)
